@@ -1,23 +1,23 @@
 # ForeginChinese<br>
 ##（1）创建activity与fragment<br>
-新建activity放弃继承安卓原生的Activity。一律继承BaseActivity。<br>
-BaseActivity功能包括：<br>
-手势返回（开/关）<br>
-Activty任务栈管理<br>
-统一的日志打印方法<br>
-同一的toast提醒方法<br><br>
-Activty的跳转方法与动画<br>
-实现：继承BaseActivity并实现下面的方法<br>
- 	void onInitViews();//初始化页面布局<br>
- 	void onInitListeners();//初始化页面接口<br>
- 	void onInitData();//初始化页面数据<br>
-void onClick();//初始化页面点击事件<br>
-fragment继承BaseFragment并实现下面的方法<br>
-int getLayoutId()//加载页面布局<br>
-void onInitViews();//初始化页面布局<br>
-void onInitListeners();//初始化页面接口<br>
- 	void onInitData();//初始化页面数据<br>
-void onClick();//初始化页面点击事件<br>
+>>新建activity放弃继承安卓原生的Activity。一律继承BaseActivity。<br>
+>>BaseActivity功能包括：<br>
+>>手势返回（开/关）<br>
+>>Activty任务栈管理<br>
+>>统一的日志打印方法<br>
+>>同一的toast提醒方法<br><br>
+>>Activty的跳转方法与动画<br>
+>>实现：继承BaseActivity并实现下面的方法<br>
+ 	>>>>void onInitViews();//初始化页面布局<br>
+ 	>>>>void onInitListeners();//初始化页面接口<br>
+ 	>>>>void onInitData();//初始化页面数据<br>
+>>void onClick();//初始化页面点击事件<br>
+>>fragment继承BaseFragment并实现下面的方法<br>
+>>int getLayoutId()//加载页面布局<br>
+>>void onInitViews();//初始化页面布局<br>
+>>void onInitListeners();//初始化页面接口<br>
+ 	>>>>void onInitData();//初始化页面数据<br>
+>>void onClick();//初始化页面点击事件<br>
 ##（2）图片加载方法（本地/网络）<br>
 ImageUtils类是封装好的网络图片加载方法，使用方法也简单如下：<br>
  .getInstance().display(imageView, img.src);<br>
