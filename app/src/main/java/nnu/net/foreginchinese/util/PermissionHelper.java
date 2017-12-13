@@ -23,7 +23,7 @@ import android.util.Log;
  * <li>必须申请的权限
  * <ul>
  * <li>android.permission.READ_PHONE_STATE</li>
- * <li>android.permission.WRITE_EXTERNAL_STORAGE</li>
+ * <li>android.permission.WRITE_EXTERNAL_STORAGE</l i>
  * </ul>
  * </li>
  * <li>可选申请的权限
